@@ -35,7 +35,7 @@
         aside{
             background-color: whitesmoke;
             height: 210px;
-            width: 80%;
+            width: 70%;
             padding: 20px;
         }
         footer{
@@ -45,6 +45,15 @@
             height: 40px;
             font-size: 100;
         }
+        
+        @media (min-width: 700px) and (max-width: 1000px){
+            nav, aside {
+                width: 100%;
+                height: auto;
+                background-color: aliceblue;
+            }
+        }
+        
     </style>
 <head>
     <meta charset="UTF-8">
