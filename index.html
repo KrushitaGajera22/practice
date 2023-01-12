@@ -18,9 +18,10 @@
         }
         nav{
             background-color: lightgray;
-            height: 250px;
+            height: 300px;
             width: 20%;
             text-decoration: none;
+            font-size: larger;
         }
         nav ul{
             list-style-type: square;
@@ -34,9 +35,20 @@
         }
         aside{
             background-color: whitesmoke;
-            height: 210px;
+            height: 260px;
             width: 70%;
             padding: 20px;
+            font-size: large;
+        }
+        details > summary{
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+        details > p {
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
         }
         footer{
             text-align: center;
@@ -84,10 +96,13 @@
            in the  United Kingdom, with a metropolitan area of over 13 million
            inhabitants.
         </p>
-        <p>Standing on the River Thames, London has been a major settlement for
-           two millennia, its history going back to its founding by the Romans, 
-           who named it Londinium.
-        </p>
+        <details>
+            <summary>History</summary>
+            <p>Standing on the River Thames, London has been a major settlement for
+            two millennia, its history going back to its founding by the Romans, 
+            who named it Londinium.
+            </p>
+        </details>
     </aside>
 </section>
 
